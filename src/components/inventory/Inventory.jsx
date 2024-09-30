@@ -7,6 +7,7 @@ import { addToCart, getCart, removeFromCart, setCart } from '../cart/cart';
 function useIsDarkMode() {
     const theme = useTheme();
     return theme.palette.mode === 'dark';
+    //
 }
 
 function itemInformation({item, itemName, itemDescription, itemPrice}) {
